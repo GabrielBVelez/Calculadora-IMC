@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size: 25px;
+    --bg-color: #D2F6FC;
+    --color: black;
+}
+
+body {
+    margin: 0px;
+    font-size: var(--font-size);
+    background-color: var(--bg-color);
+    margin-left: auto;
+    margin-top: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #0085ff;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    --branco: white;
+    background-color: var(--branco);
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #7984EE;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#texto {
+    font-size: 18px;
+    margin-left: -24%;
+}
+
+.texto {
+    border: 2px solid cyan;
+    border-radius: 10px;
+    width: 700px;
+}
+
+
+
+.campo {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+input:hover {
+    background-color: cyan; 
+}
+
+.resultado {
+    font-size: 16px;
+    color: var(--color);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 2px solid #7984EE;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.botao {
+    width: 250px;
+    height: 50px;
+    background-color: #280b6f;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.botao:hover {
+    background-color: cyan;
+    border: 2px solid black;
+    color: var(--color);
+}
+
+h1 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#subtitulo {
+    margin-left: 11%;
+    margin-right: 11%;
+}
